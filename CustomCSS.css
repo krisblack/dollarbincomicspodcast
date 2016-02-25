@@ -128,6 +128,11 @@
   -webkit-border-radius: 0px 0px 0 10px;
   -moz-border-radius: 0px 0px 0 10px;
   border-radius: 0px 0px 0 10px;
+  
+  h3 {
+	  border-bottom: 1px solid #616161;
+	  margin-top: 2em;
+  }
 }
 
 #sidebar-one .slide {
@@ -649,24 +654,27 @@ article,
   
   /* Footer Meanwhile */
   #block-c2900ab71e9a7507ed82 {
-	background-image: url(http://static.squarespace.com/static/50acbf0ee4b04170ccae3b85/t/51f7af4be4b07a5ac2948e83/1375186763398/Meanwhile-caption-gray.png);
-	padding-top: 60px !important;
-	
-	.summary-item {
-	  background-image: url(http://static.squarespace.com/static/50acbf0ee4b04170ccae3b85/t/51f7af7be4b097de73d05d34/1375186811054/meanwhile-arrow-gray.png);
-	}
-	
-	.summary-title {
-	  text-shadow: none;
-	}
-	
-	.summary-title a:link,
-	.summary-title a:visited {
-	  color: #2f2d2b;
-	}
-	
+	  background-image: none;
+	  
+	  .sqs-block-content {
+		background-image: url(http://static.squarespace.com/static/50acbf0ee4b04170ccae3b85/t/51f7af4be4b07a5ac2948e83/1375186763398/Meanwhile-caption-gray.png);
+		padding-top: 60px !important;
+		
+		.summary-item {
+		  background-image: url(http://static.squarespace.com/static/50acbf0ee4b04170ccae3b85/t/51f7af7be4b097de73d05d34/1375186811054/meanwhile-arrow-gray.png);
+		}
+		
+		.summary-title {
+		  text-shadow: none;
+		}
+		
+		.summary-title a:link,
+		.summary-title a:visited {
+		  color: #2f2d2b;
+		}
+		
+	  }
   }
-
 }
 
 
