@@ -691,11 +691,33 @@ article,
 	background-image: url(http://static.squarespace.com/static/50acbf0ee4b04170ccae3b85/t/52beb7f5e4b09bff06022896/1388230645383/yellow-bar-mobile.png);
 	background-position: top center;
 	background-repeat: no-repeat;
+    border-bottom: 1px solid #333 !important;
 	font-size: 14px;
+    
+    &.sqs-mobile-nav-open {
+    	padding-bottom: 0 !important;
+    }
   }
 
-  #mobile-navigation ul a {
-	color: #fff;
+  #mobile-navigation ul {
+    background-color: #001119;
+    background-image: url(http://static.squarespace.com/static/50acbf0ee4b04170ccae3b85/t/51f7ae5be4b0dcb625419b33/1375186523771/recently.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100%;
+        
+    	a, .folder-toggle-label {
+			color: #fff;
+          font-size: 1.5em !important;
+          padding-left: 1em !important;
+            text-align: left;
+        }
+    
+    li > label ~ a {
+          font-size: 1.1em !important;
+          padding-left: 2.2em !important;
+          text-transform: capitalize;
+        }
   }
 
   #page-header-wrapper {
